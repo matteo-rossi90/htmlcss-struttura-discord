@@ -4,7 +4,7 @@
     box-sizing: border-box;
 }
 
-/* regole barra di navigazione */
+/* regole barra di navigazione in alto */
 #navbar{
     height: 50px;
     background-color: #ADD8E6;
@@ -132,6 +132,7 @@ footer{
     background-color:#23272A;
 }
 
+/* regole del contenuto social e contenuto informativo */
 aside.sidebar,
 #nav-footer{
     margin-top: 10px;
@@ -165,6 +166,28 @@ div.col-footer{
     border: rgb(255, 255, 255) 2px dashed;
 }
 
+/* regole per logo e bottone finale */
+
+#navbar-footer{
+    display: flex;
+    justify-content: center;
+    height: 100px;
+}
+
+#nav-content{
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #7FFFD4;
+    margin: 20px 0;
+    width: 1100px;
+}
+
+.item-footer{
+    background-color: #FFB6C1;
+    padding: 8px 16px;
+    border:rgb(120, 48, 120) 2px dashed;
+}
 
 
 
