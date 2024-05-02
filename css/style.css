@@ -65,7 +65,7 @@ div.row{
     align-items: center;
 }
 
-/*  */
+/* colore solo per le righe dispari */
 div.row:nth-child(odd){
     background-color: #D3D3D3;
 }
