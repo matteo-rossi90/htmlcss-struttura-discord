@@ -1,0 +1,59 @@
+/* proprietà generali */
+*{
+    margin:0;
+    box-sizing: border-box;
+}
+
+/* regole barra di navigazione */
+#navbar{
+    height: 50px;
+    background-color: #ADD8E6;
+    display: flex;
+    justify-content: center;
+    align-items:center;
+}
+
+#flex-content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+ul.nav-list{
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+    margin: 0 auto;
+}
+
+.col-nav{
+    width: 200px;
+    text-align:center;
+    height: 30px;
+    line-height: 25px;
+    background-color: goldenrod;
+    border: 2px rgb(120, 48, 120) dashed;
+}
+
+.center{
+    width: 500px;
+}
+
+li a{
+    text-align: center;
+    text-decoration: none;
+    margin: 0 10px;
+
+}
+
+#logo{
+    text-align: left;
+}
+
+#login {
+    text-align: right;
+}
+
+
+
+
