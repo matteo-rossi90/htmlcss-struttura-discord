@@ -27,16 +27,16 @@ ul.nav-list{
 }
 
 .col-nav{
-    width: 200px;
-    text-align:center;
+    width: 250px;
     height: 30px;
+    text-align: center;
     line-height: 25px;
     background-color: goldenrod;
     border: 2px rgb(120, 48, 120) dashed;
 }
 
 .center{
-    width: 500px;
+    width: 600px;
 }
 
 li a{
@@ -60,20 +60,46 @@ li a{
 div.row{
     height: 500px;
     display: flex;
-    flex-direction: column;
+    justify-content: center;
     align-items: center;
+}
+
+/*  */
+div.row:nth-child(odd){
+    background-color: #D3D3D3;
 }
 
 #start{
     background-color: #00008B;
 }
 
+/* box per il testo iniziale della prima parte */
 .text-box{
     height: 400px;
     width: 700px;
     background-color: #EE82EE; 
     border:rgb(120, 48, 120) 2px dashed;
-    margin: 40px 0;
+    margin: 45px 0;
+}
+
+/* box immagini */
+figure.image{
+    height: 400px;
+    width: 600px;
+    background-color: #1E90FF;
+    border: rgb(120, 48, 120) 2px dashed;
+}
+
+/* box testo affiancato a immagine */
+aside.text{
+    height: 400px;
+    width: 500px;
+    background-color: #FFC0CB;
+    border: rgb(120, 48, 120) 2px dashed;
+}
+
+.reverse{
+    flex-direction:row-reverse;
 }
 
 
