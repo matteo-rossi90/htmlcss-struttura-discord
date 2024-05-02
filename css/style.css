@@ -126,5 +126,45 @@ div.box-row{
     background-color:#228B22;
 }
 
+/* regole footer */
+
+footer{
+    background-color:#23272A;
+}
+
+aside.sidebar,
+#nav-footer{
+    margin-top: 10px;
+    margin-bottom: 25px;
+}
+
+div.flex-footer{
+    display: flex;
+    justify-content: center;
+    align-items:flex-start;
+}
+
+aside.sidebar{
+    display: flex;
+    height: 600px;
+    width: 300px;
+    background-color: #F08080;
+    border: rgb(120, 48, 120) 2px dashed;
+}
+
+#nav-footer{
+    display: flex;
+    width: 800px;
+    height: 600px;
+    border:rgb(120, 48, 120) 2px dashed;
+}
+
+div.col-footer{
+    width: calc(100% / 4);
+    background-color: #20B2AA;
+    border: rgb(255, 255, 255) 2px dashed;
+}
+
+
 
 
