@@ -8,15 +8,13 @@
 #navbar{
     height: 50px;
     background-color: #ADD8E6;
-    display: flex;
-    justify-content: center;
-    align-items:center;
 }
 
-#flex-content{
+#navbar, #flex-content{
     display: flex;
     justify-content: center;
     align-items: center;
+
 }
 
 ul.nav-list{
@@ -30,7 +28,6 @@ ul.nav-list{
 .col-nav{
     min-width: 250px;
     min-height: 30px;
-    text-align: center;
     line-height: 25px;
     background-color: goldenrod;
     border: 2px rgb(120, 48, 120) dashed;
@@ -85,9 +82,7 @@ div.row:nth-child(odd){
 
 /* box immagini */
 
-figure.image,
-aside.text,
-.box{
+figure.image, aside.text, .box{
     margin: 45px 0;
 }
 
@@ -98,7 +93,7 @@ div.box-row{
 
 figure.image{
     min-height: 400px;
-    min-width: 600px;
+    min-width: 700px;
     background-color: #1E90FF;
     border: rgb(120, 48, 120) 2px dashed;
 }
@@ -106,13 +101,9 @@ figure.image{
 /* box testo affiancato a immagini */
 aside.text{
     min-height: 400px;
-    min-width: 500px;
+    min-width: 400px;
     background-color: #FFC0CB;
     border: rgb(120, 48, 120) 2px dashed;
-}
-
-.reverse{
-    flex-direction:row-reverse;
 }
 
 /* parte con immagine e testo in basso */
@@ -138,6 +129,7 @@ aside.sidebar,
 #nav-footer{
     margin-top: 10px;
     margin-bottom: 25px;
+    min-height: 600px;
 }
 
 div.flex-footer{
@@ -148,7 +140,6 @@ div.flex-footer{
 
 aside.sidebar{
     display: flex;
-    min-height: 600px;
     min-width: 300px;
     background-color: #F08080;
     border: rgb(120, 48, 120) 2px dashed;
@@ -157,7 +148,6 @@ aside.sidebar{
 #nav-footer{
     display: flex;
     min-width: 800px;
-    min-height: 600px;
     border:rgb(120, 48, 120) 2px dashed;
 }
 
